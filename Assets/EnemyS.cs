@@ -6,6 +6,7 @@ public class EnemyS : MonoBehaviour
 {
         // Start is called before the first frame update
     public GameObject pointA;
+    public GameObject pointB;
     private Rigidbody2D rb;
     private Transform currentPoint;
     private Animator anim;
