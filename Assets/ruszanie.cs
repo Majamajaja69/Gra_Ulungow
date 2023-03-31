@@ -12,6 +12,7 @@ public class ruszanie : MonoBehaviour
     private float dirX = 0;
     [SerializeField] private float moveSpeed = 7f;
     [SerializeField] private float jumpForce = 14f;
+    [SerializeField] private float maxVelocity = 3f;
    
 
     // Start is called before the first frame update
@@ -23,8 +24,8 @@ public class ruszanie : MonoBehaviour
     }
 
     // Update is called once per frame
-    private void Update()
-    {
+    private void FixedUpdate()
+     {
         dirX = Input.GetAxisRaw("Horizontal");
         rb.velocity = new Vector2(dirX * moveSpeed, rb.velocity.y);
 
@@ -33,8 +34,28 @@ public class ruszanie : MonoBehaviour
             rb.velocity = new Vector3(rb.velocity.x , jumpForce);
         }
 
-    }
-   
-        
+     
 
-} 
+    
+        UpdateAnimationUpdate();
+    
+    
+     }
+      private void UpdateAnimationUpdate()
+     {
+        if (dirX > 0f)
+        {
+            anim.SetBool("chodzenie", true);
+            sprite.flipX = false;
+        }
+        else if (dirX < 0f)
+        {
+            anim.SetBool("chodzenie", true);
+            sprite.flipX = true;
+        }
+        else
+        {
+            anim.SetBool("chodzenie", false);
+        }
+     }
+}
