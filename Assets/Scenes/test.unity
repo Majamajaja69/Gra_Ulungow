@@ -133,6 +133,7 @@ GameObject:
   m_Component:
   - component: {fileID: 123104640}
   - component: {fileID: 123104641}
+  - component: {fileID: 123104642}
   m_Layer: 0
   m_Name: "cie\u0144 g\u0142\xF3wny"
   m_TagString: Untagged
@@ -209,6 +210,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &123104642
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 123104639}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e04945b1890e3df42a2f6cd9c2013d57, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cam: {fileID: 0}
+  parallaxEffect: 0
 --- !u!1 &247332679
 GameObject:
   m_ObjectHideFlags: 0
@@ -582,6 +597,7 @@ GameObject:
   m_Component:
   - component: {fileID: 706722715}
   - component: {fileID: 706722716}
+  - component: {fileID: 706722717}
   m_Layer: 0
   m_Name: "najdalszy cie\u0144"
   m_TagString: Untagged
@@ -658,6 +674,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &706722717
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 706722714}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e04945b1890e3df42a2f6cd9c2013d57, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cam: {fileID: 0}
+  parallaxEffect: 0
 --- !u!1 &753309086
 GameObject:
   m_ObjectHideFlags: 0
@@ -872,6 +902,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1075923338}
   - component: {fileID: 1075923339}
+  - component: {fileID: 1075923340}
   m_Layer: 0
   m_Name: "cie\u0144 2"
   m_TagString: Untagged
@@ -948,6 +979,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1075923340
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1075923337}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e04945b1890e3df42a2f6cd9c2013d57, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cam: {fileID: 0}
+  parallaxEffect: 0
 --- !u!1 &1093389782
 GameObject:
   m_ObjectHideFlags: 0
@@ -1100,6 +1145,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1334817619}
   - component: {fileID: 1334817620}
+  - component: {fileID: 1334817621}
   m_Layer: 0
   m_Name: drzewa
   m_TagString: Untagged
@@ -1176,6 +1222,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1334817621
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1334817618}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e04945b1890e3df42a2f6cd9c2013d57, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cam: {fileID: 0}
+  parallaxEffect: 0
 --- !u!1 &1363187386
 GameObject:
   m_ObjectHideFlags: 0
@@ -1186,6 +1246,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1363187387}
   - component: {fileID: 1363187388}
+  - component: {fileID: 1363187389}
   m_Layer: 0
   m_Name: "t\u0142o"
   m_TagString: Untagged
@@ -1262,6 +1323,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1363187389
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1363187386}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e04945b1890e3df42a2f6cd9c2013d57, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cam: {fileID: 0}
+  parallaxEffect: 0
 --- !u!1 &1407741152
 GameObject:
   m_ObjectHideFlags: 0
