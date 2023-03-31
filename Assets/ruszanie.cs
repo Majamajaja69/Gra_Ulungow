@@ -43,6 +43,7 @@ public class ruszanie : MonoBehaviour
      }
       private void UpdateAnimationUpdate()
      {
+       Debug.Log(rb.velocity);
         if (dirX > 0f)
         {
             anim.SetBool("chodzenie", true);
@@ -57,5 +58,23 @@ public class ruszanie : MonoBehaviour
         {
             anim.SetBool("chodzenie", false);
         }
-     }
+
+        if (rb.velocity.y > 0.1f)
+        {
+            anim.SetBool("skok", true);
+        }
+        else
+        {
+            anim.SetBool("skok", false);
+        }
+
+        if (rb.velocity.y< 0f)
+        {
+            anim.SetBool("spadanie", true);
+        }
+        else
+        {
+            anim.SetBool("spadanie", false);
+        }
+    }
 }
