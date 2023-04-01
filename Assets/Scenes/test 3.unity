@@ -133,7 +133,6 @@ GameObject:
   m_Component:
   - component: {fileID: 123701916}
   - component: {fileID: 123701917}
-  - component: {fileID: 123701918}
   m_Layer: 0
   m_Name: "t\u0142o (1)"
   m_TagString: Untagged
@@ -208,20 +207,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &123701918
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 123701915}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e04945b1890e3df42a2f6cd9c2013d57, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cam: {fileID: 367876293}
-  parallaxEffect: 1
 --- !u!1 &290735800
 GameObject:
   m_ObjectHideFlags: 0
@@ -232,7 +217,6 @@ GameObject:
   m_Component:
   - component: {fileID: 290735801}
   - component: {fileID: 290735802}
-  - component: {fileID: 290735803}
   m_Layer: 0
   m_Name: krzaczki (1)
   m_TagString: Untagged
@@ -307,20 +291,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &290735803
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 290735800}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e04945b1890e3df42a2f6cd9c2013d57, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cam: {fileID: 367876293}
-  parallaxEffect: 0.3
 --- !u!1 &367876293
 GameObject:
   m_ObjectHideFlags: 0
@@ -415,7 +385,6 @@ GameObject:
   m_Component:
   - component: {fileID: 401014406}
   - component: {fileID: 401014407}
-  - component: {fileID: 401014408}
   m_Layer: 0
   m_Name: krzaczki
   m_TagString: Untagged
@@ -490,20 +459,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &401014408
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 401014405}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e04945b1890e3df42a2f6cd9c2013d57, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cam: {fileID: 367876293}
-  parallaxEffect: 0.3
 --- !u!1 &447381985
 GameObject:
   m_ObjectHideFlags: 0
@@ -615,7 +570,6 @@ GameObject:
   m_Component:
   - component: {fileID: 535373678}
   - component: {fileID: 535373679}
-  - component: {fileID: 535373680}
   m_Layer: 0
   m_Name: piramidy
   m_TagString: Untagged
@@ -690,20 +644,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &535373680
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 535373677}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e04945b1890e3df42a2f6cd9c2013d57, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cam: {fileID: 367876293}
-  parallaxEffect: 0.8
 --- !u!1 &742114222
 GameObject:
   m_ObjectHideFlags: 0
@@ -714,7 +654,6 @@ GameObject:
   m_Component:
   - component: {fileID: 742114223}
   - component: {fileID: 742114224}
-  - component: {fileID: 742114225}
   m_Layer: 0
   m_Name: piramidy (1)
   m_TagString: Untagged
@@ -789,20 +728,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &742114225
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 742114222}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e04945b1890e3df42a2f6cd9c2013d57, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cam: {fileID: 367876293}
-  parallaxEffect: 0.8
 --- !u!1 &803800831
 GameObject:
   m_ObjectHideFlags: 0
@@ -1051,7 +976,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1026478977}
   - component: {fileID: 1026478978}
-  - component: {fileID: 1026478979}
   m_Layer: 0
   m_Name: piramida
   m_TagString: Untagged
@@ -1126,20 +1050,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1026478979
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1026478976}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e04945b1890e3df42a2f6cd9c2013d57, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cam: {fileID: 367876293}
-  parallaxEffect: 0.6
 --- !u!1 &1071375557
 GameObject:
   m_ObjectHideFlags: 0
@@ -1150,7 +1060,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1071375558}
   - component: {fileID: 1071375559}
-  - component: {fileID: 1071375560}
   m_Layer: 0
   m_Name: piramida (1)
   m_TagString: Untagged
@@ -1225,20 +1134,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1071375560
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1071375557}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e04945b1890e3df42a2f6cd9c2013d57, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cam: {fileID: 367876293}
-  parallaxEffect: 0.6
 --- !u!1 &1243404627
 GameObject:
   m_ObjectHideFlags: 0
@@ -1249,7 +1144,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1243404628}
   - component: {fileID: 1243404629}
-  - component: {fileID: 1243404630}
   m_Layer: 0
   m_Name: krzaki
   m_TagString: Untagged
@@ -1324,20 +1218,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1243404630
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1243404627}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e04945b1890e3df42a2f6cd9c2013d57, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cam: {fileID: 367876293}
-  parallaxEffect: 0
 --- !u!1 &1426780087
 GameObject:
   m_ObjectHideFlags: 0
@@ -1348,7 +1228,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1426780088}
   - component: {fileID: 1426780089}
-  - component: {fileID: 1426780090}
   m_Layer: 0
   m_Name: krzaki (1)
   m_TagString: Untagged
@@ -1423,20 +1302,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1426780090
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1426780087}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e04945b1890e3df42a2f6cd9c2013d57, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cam: {fileID: 367876293}
-  parallaxEffect: 0
 --- !u!1 &1518427176
 GameObject:
   m_ObjectHideFlags: 0
@@ -1649,7 +1514,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1732425595}
   - component: {fileID: 1732425596}
-  - component: {fileID: 1732425597}
   m_Layer: 0
   m_Name: "t\u0142o"
   m_TagString: Untagged
@@ -1724,17 +1588,3 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1732425597
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1732425594}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e04945b1890e3df42a2f6cd9c2013d57, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cam: {fileID: 367876293}
-  parallaxEffect: 1
