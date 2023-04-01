@@ -10412,7 +10412,7 @@ MonoBehaviour:
   maxVelocity: 3
   layer:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 1
 --- !u!61 &2023123436
 BoxCollider2D:
   m_ObjectHideFlags: 0
