@@ -2109,7 +2109,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 505612310}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.686, y: -0.217, z: 0}
+  m_LocalPosition: {x: 1.87, y: -0.217, z: 0}
   m_LocalScale: {x: 0.2695964, y: 0.2695964, z: 0.2695964}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3441,7 +3441,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &652316765
 GameObject:
@@ -3873,7 +3873,7 @@ RectTransform:
   m_Children:
   - {fileID: 167261102}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -5443,10 +5443,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8697847955950441611, guid: 70b1a61d79e215d4e99ac5109434d903, type: 3}
       propertyPath: m_Name
-      value: Player
-      objectReference: {fileID: 0}
-    - target: {fileID: 8697847955950441611, guid: 70b1a61d79e215d4e99ac5109434d903, type: 3}
-      propertyPath: m_TagString
       value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 8697847955950441611, guid: 70b1a61d79e215d4e99ac5109434d903, type: 3}
