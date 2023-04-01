@@ -4421,7 +4421,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Is that..?
+  m_Text: ...Familly
 --- !u!222 &206616065
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -16097,7 +16097,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e04945b1890e3df42a2f6cd9c2013d57, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cam: {fileID: 0}
+  cam: {fileID: 1951880425}
   parallaxEffect: 0
 --- !u!212 &672478264
 SpriteRenderer:
@@ -25508,7 +25508,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 4b3c48286453ada409f3811bb643adeb, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9355ee278d4adc646b5a9b63e7dcbff5, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -27586,7 +27586,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1285995223
 RectTransform:
   m_ObjectHideFlags: 0
@@ -28754,7 +28754,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e04945b1890e3df42a2f6cd9c2013d57, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cam: {fileID: 0}
+  cam: {fileID: 1951880425}
   parallaxEffect: 0.3
 --- !u!212 &1320081443
 SpriteRenderer:
@@ -32053,7 +32053,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6701763662653864195, guid: 6ee3f557a740b2d41b8b17366c9c0c50, type: 3}
       propertyPath: m_Name
-      value: Square
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 6701763662653864195, guid: 6ee3f557a740b2d41b8b17366c9c0c50, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 6701763662653864198, guid: 6ee3f557a740b2d41b8b17366c9c0c50, type: 3}
+      propertyPath: m_Interpolate
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6701763662653864198, guid: 6ee3f557a740b2d41b8b17366c9c0c50, type: 3}
+      propertyPath: m_CollisionDetection
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6701763662653864199, guid: 6ee3f557a740b2d41b8b17366c9c0c50, type: 3}
       propertyPath: m_Size.x
@@ -34760,7 +34772,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e04945b1890e3df42a2f6cd9c2013d57, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cam: {fileID: 0}
+  cam: {fileID: 1951880425}
   parallaxEffect: 1
 --- !u!212 &1609445399
 SpriteRenderer:
@@ -37496,7 +37508,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e04945b1890e3df42a2f6cd9c2013d57, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cam: {fileID: 0}
+  cam: {fileID: 1951880425}
   parallaxEffect: 0.6
 --- !u!212 &1731827437
 SpriteRenderer:
@@ -38773,7 +38785,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e04945b1890e3df42a2f6cd9c2013d57, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cam: {fileID: 0}
+  cam: {fileID: 1951880425}
   parallaxEffect: 0.8
 --- !u!212 &1778990986
 SpriteRenderer:
@@ -43317,6 +43329,11 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 7.5815873, y: 0.035953403}
   m_EdgeRadius: 0
+--- !u!1 &1951880425 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6701763663192981608, guid: 6ee3f557a740b2d41b8b17366c9c0c50, type: 3}
+  m_PrefabInstance: {fileID: 1481581339}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1952286044
 GameObject:
   m_ObjectHideFlags: 0
