@@ -13,8 +13,8 @@ public class ruszanie : MonoBehaviour
     [SerializeField] private float moveSpeed = 7f;
     [SerializeField] private float jumpForce = 14f;
     [SerializeField] private float maxVelocity = 3f;
-   
-
+    private bool _isJumping;
+    private int _jumpCount;
     // Start is called before the first frame update
     private void Start()
     {
@@ -23,15 +23,29 @@ public class ruszanie : MonoBehaviour
         anim = GetComponent<Animator>();
     }
 
+    private void Update()
+    {
+        if(Input.GetButtonDown("Jump"))
+        {
+            _isJumping = true;
+        }
+    }
+
     // Update is called once per frame
     private void FixedUpdate()
      {
         dirX = Input.GetAxisRaw("Horizontal");
         rb.velocity = new Vector2(dirX * moveSpeed, rb.velocity.y);
 
-        if (Input.GetButtonDown("Jump"))
+        if (_isJumping && _jumpCount < 2)
         {
             rb.velocity = new Vector3(rb.velocity.x , jumpForce);
+            _isJumping = false;
+            _jumpCount++;
+        }
+        else if(_jumpCount == 2)
+        {
+            _isJumping = false;
         }
 
      
@@ -75,6 +89,14 @@ public class ruszanie : MonoBehaviour
         else
         {
             anim.SetBool("spadanie", false);
+        }
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Ground"))
+        {
+            _jumpCount = 0;
         }
     }
 }
