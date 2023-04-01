@@ -31708,6 +31708,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Square
       objectReference: {fileID: 0}
+    - target: {fileID: 6701763662653864195, guid: 6ee3f557a740b2d41b8b17366c9c0c50, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: 6701763662653864199, guid: 6ee3f557a740b2d41b8b17366c9c0c50, type: 3}
       propertyPath: m_Size.x
       value: 0.19023311
