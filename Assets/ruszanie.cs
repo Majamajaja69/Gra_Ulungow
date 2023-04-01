@@ -81,7 +81,7 @@ public class ruszanie : MonoBehaviour
     }    
 
     private void Jump(){
-        if(_jumpCount < 2){
+        if(_jumpCount < 0.1f){
             rb.AddForce(new Vector2(rb.velocity.x, jumpForce));
         _jumpCount++;
         }        
