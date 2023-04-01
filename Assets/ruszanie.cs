@@ -20,7 +20,7 @@ public class ruszanie : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         sprite = GetComponent<SpriteRenderer>();
-        anim = GetComponent<Animator>();
+        //anim = GetComponent<Animator>();
     }
 
     private void Update()
@@ -51,7 +51,7 @@ public class ruszanie : MonoBehaviour
      
 
     
-        UpdateAnimationUpdate();
+        //UpdateAnimationUpdate();
     
     
      }
