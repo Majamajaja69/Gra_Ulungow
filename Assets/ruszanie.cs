@@ -15,6 +15,9 @@ public class ruszanie : MonoBehaviour
     [SerializeField] private float maxVelocity = 3f;
     private bool _isJumping;
     private int _jumpCount;
+
+    [SerializeField] private LayerMask layer;
+
     // Start is called before the first frame update
     private void Start()
     {
@@ -27,37 +30,22 @@ public class ruszanie : MonoBehaviour
     {
         if(Input.GetButtonDown("Jump"))
         {
-            _isJumping = true;
+            Jump();
         }
+        CheckGround();
     }
 
     // Update is called once per frame
     private void FixedUpdate()
      {
         dirX = Input.GetAxisRaw("Horizontal");
-        rb.velocity = new Vector2(dirX * moveSpeed, rb.velocity.y);
-
-        if (_isJumping && _jumpCount < 2)
-        {
-            rb.velocity = new Vector3(rb.velocity.x , jumpForce);
-            _isJumping = false;
-            _jumpCount++;
-        }
-        else if(_jumpCount == 2)
-        {
-            _isJumping = false;
-        }
-
-     
-
-    
-        UpdateAnimationUpdate();
-    
-    
+        rb.velocity = new Vector2(dirX * moveSpeed, rb.velocity.y); 
+        UpdateAnimationUpdate();    
      }
+
       private void UpdateAnimationUpdate()
      {
-       Debug.Log(rb.velocity);
+       //Debug.Log(rb.velocity);
         if (dirX > 0f)
         {
             anim.SetBool("chodzenie", true);
@@ -90,12 +78,19 @@ public class ruszanie : MonoBehaviour
         {
             anim.SetBool("spadanie", false);
         }
+    }    
+
+    private void Jump(){
+        if(_jumpCount < 2){
+            rb.AddForce(new Vector2(rb.velocity.x, jumpForce));
+        _jumpCount++;
+        }        
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        if (collision.gameObject.CompareTag("Ground"))
-        {
+    private void CheckGround(){
+        RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.down, 0.1f, layer);
+        if(hit.collider != null){
+            Debug.Log("hit!");
             _jumpCount = 0;
         }
     }
