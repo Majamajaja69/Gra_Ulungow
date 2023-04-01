@@ -10,7 +10,7 @@ public class killzone : MonoBehaviour
     {
         if (collision.gameObject.tag=="Player")
         {
-            SceneManager.LoadScene("Wrogowie");
+            SceneManager.LoadScene("Level_0");
         }
 
     }

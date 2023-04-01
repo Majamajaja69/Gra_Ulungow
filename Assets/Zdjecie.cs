@@ -33,10 +33,10 @@ public class Zdjecie : MonoBehaviour
                 //StartCoroutine(Typing());
             }
         }
-       // if (DialogText.text== dialogue[index])
-       // {
-        //    contButton.SetActive(true);
-       // }
+        if (DialogText.text== dialogue[index])
+        {
+            contButton.SetActive(true);
+        }
     }
     private void OnTriggerEnter2D(Collider2D other)
     {
@@ -54,29 +54,29 @@ public class Zdjecie : MonoBehaviour
         index = 0;
         DialogPanel.SetActive(false);
     }
-    //IEnumerator Typing()
-    //{
-        //foreach(char letter in dialogue[index].ToCharArray() )
-       // {
-        //    DialogText.text += letter;
-      //      yield return new WaitForSeconds(wordSpeed);
-      //  }
-    //}
-    //public void NextLine()
-    //{
-      //  contButton.SetActive(false);
-    //if(index<dialogue.Lenght-1)
-      //  {
-         //   index ++;
-         //   DialogText.text= "";
-        //    StartCoroutine(Typing());
+    IEnumerator Typing()
+    {
+        foreach(char letter in dialogue[index].ToCharArray() )
+        {
+            DialogText.text += letter;
+            yield return new WaitForSeconds(wordSpeed);
+        }
+    }
+    public void NextLine()
+    {
+        contButton.SetActive(false);
+    if(index<dialogue.Length-1)
+        {
+            index ++;
+            DialogText.text= "";
+            StartCoroutine(Typing());
 
-    //    }
-      //  else
-      //  {
-      //      zeroText();
-      //  }
-    //}
+        }
+        else
+       {
+            zeroText();
+        }
+    }
     private void OnTriggerExit2D(Collider2D other)
     {
         if (other.CompareTag("Player"))
